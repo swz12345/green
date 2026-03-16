@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       start_date:
-        description: '2024-5-27'
+        description: '开始日期 (YYYY-MM-DD)'
         required: true
-        default: '2024-06-23'
+        default: '2024-05-27'
       end_date:
-        description: 
+        description: '结束日期 (YYYY-MM-DD) - 留空则默认为今天'
         required: false
         default: ''
       daily_commits:
